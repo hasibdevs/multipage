@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background: #0be0d5;
+
+}
+.container{
+    width: calc(100% - 300px);
+    margin: auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+.justify-content{
+    justify-content: center;
+}
+.col{
+        width: 33.33%;
+        padding: 15px;
+        flex: 0 0 auto;
+}
+
+header{
+    padding: 10px 0;
+    box-shadow: 1px -8px 10px 3px #00000063;
+    background-color: wheat;
+}
+.logo{
+    width: 20%;
+    flex: 0 0 auto;
+}
+.logo a{}
+.logo a h1:hover{
+        color: #ffffff;
+}
+nav{
+    width: 80%;
+    flex: 0 0 auto;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 15px 20px;
+    display: block;
+}
+nav ul li a:hover{
+    color: #ffffff;
+}
+
+/***************singup-form-section***************/
+
+section{
+    padding: 80px 0;
+}
+.singup-form-section{}
+.singup{
+    width: 50%;
+    flex: 0 0 auto;
+    padding: 45px;
+    background: #0be0d5;
+    box-shadow:  20px 20px 60px #09beb5, -20px -20px 60px #0dfff5;
+    transition-duration: 0.3s;
+}
+
+.singup:hover{
+    box-shadow:  20px 20px 60px #0dfff5,-20px -20px 60px #09beb5;
+}
+
+
+/***************form***************/
+form{}
+form input, form textarea{
+    width: 100%;
+    padding: 9px 15px;
+    border: 2px solid white;
+    background: #ff000000;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+form strong{
+    margin: 25px 0 10px;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+}
+form label{
+    font-size: 18px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+form textarea{}
+form input[type="radio"],[type="checkbox"]{
+    width: auto;
+}
+
+form input[type="submit"]{
+    width: auto;
+    background: #07b7ae91;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 43px;
+}
+
+form a{}
+form p a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+form p{
+    color: white;
+    letter-spacing: 1px;
+}
+
+input:focus{     /******if i use only :focus it will effect all input and textarea ****/
+    background: #07b7ae91;
+    outline: none;
+}
+
+/***************form***************/
+
+/***************portfolio section***************/
+.portfolio-section{}
+.project{
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    background: #0be0d5;
+    box-shadow:  20px 20px 60px #09beb5, -20px -20px 60px #0dfff5;
+}
+.project img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.project h2{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+        padding: 0 15px 5px;
+
+}
+.project:hover{
+    opacity: 0.9;
+
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 5px;
+}
+
+
+
+
+/***************about sectopn********************/
+
+.about-section{}
+.about-section h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+.about-section p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+article {}
+
+.about-section h1 strong{
+    color: white;
+    font-weight:500;
+}
+
+
